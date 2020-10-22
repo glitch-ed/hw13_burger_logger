@@ -1,6 +1,6 @@
 const express = require("express");
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5000;
 
 const app = express();
 
@@ -17,7 +17,7 @@ app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
 
-var routes = require("./controllers/catsController.js");
+var routes = require("./controllers/burgersController.js");
 
 app.use(routes);
 

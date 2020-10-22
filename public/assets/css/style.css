@@ -1,0 +1,53 @@
+.body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: rgb(247, 243, 243);
+}
+
+.pic {
+  width: 350px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  animation: rotation 6s infinite linear;
+}
+
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: white;
+ 
+} 
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%
+} 
+
+.text {
+  font-family:Impact;
+  white-space: nowrap;
+  color: rgb(235, 19, 19);
+  font-size: 80px;
+} 
+
+.add {
+  font-family:Arial;
+  font-size: 30px;
+}
+
+
+
+.form-group {
+  text-align: center;
+}
+
+.button {
+  text-align: center;
+}
+
+.make {
+  text-align: center;
+}
