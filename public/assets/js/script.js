@@ -9,7 +9,7 @@ $(function() {
       };
       console.log(newDevour);
 
-      //PUT
+     //PUT
       $.ajax("/api/burgers/" + id, {
         type: "PUT",
         data: newDevourState

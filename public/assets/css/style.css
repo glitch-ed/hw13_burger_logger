@@ -1,5 +1,5 @@
 .body {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family:Arial;
   background-color: rgb(247, 243, 243);
 }
 
@@ -13,7 +13,7 @@
 
 
 .overlay {
-  position: absolute;
+ 
   bottom: 100%;
   left: 0;
   right: 0;
