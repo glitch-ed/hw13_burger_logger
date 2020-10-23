@@ -9,7 +9,7 @@ $(function() {
       };
       console.log(newDevour);
 
-     //PUT
+     
       $.ajax("/api/burgers/" + id, {
         type: "PUT",
         data: newDevourState
@@ -27,7 +27,7 @@ $(function() {
       event.preventDefault();
      
       var newBurger = {
-        burger_name: $("#burg").val().trim(),
+        burger_name: $("#burger").val().trim(),
         devoured: false
       };
     
